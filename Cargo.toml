@@ -1,0 +1,12 @@
+[package]
+name = "xpans_renderconfig"
+version = "0.1.0"
+edition = "2024"
+description = "Serializable and deserializable data structures for configuring spatial audio rendering modes in the xpans Ecosystem"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/xpans-audio/xpans_renderconfig.git"
+authors = ["Ben Seigler"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
